@@ -92,10 +92,7 @@ export const CippSAMDeploy = (props) => {
             here
           </Link>
         </li>
-        <li>
-          An account with at minimum: <li>Application Administrator</li>
-          <li>User Administrator</li>
-        </li>
+        <li>(Temporary) Global Administrator permissions for the CIPP Service Account</li>
         <li>
           Multi-factor authentication enabled for the CIPP Service Account, with no trusted
           locations or other exclusions.

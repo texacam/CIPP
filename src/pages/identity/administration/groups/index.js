@@ -287,11 +287,6 @@ const Page = () => {
       "mailEnabled",
       "securityEnabled",
       "visibility",
-      "assignedLicenses",
-      "licenseProcessingState.state",
-      "onPremisesSamAccountName",
-      "membershipRule",
-      "onPremisesSyncEnabled",
     ],
     actions: actions,
   };
@@ -325,11 +320,11 @@ const Page = () => {
         "mailNickname",
         "groupType",
         "assignedLicenses",
-        "licenseProcessingState.state",
         "visibility",
         "onPremisesSamAccountName",
         "membershipRule",
         "onPremisesSyncEnabled",
+        "userPrincipalName",
       ]}
     />
   );

@@ -84,11 +84,7 @@ const Page = () => {
                       <strong>Tenant Brand Name :</strong>{" "}
                       {getTenant.data?.GraphRequest?.federationBrandName
                         ? getTenant.data?.GraphRequest?.federationBrandName
-                        : "Not Specified"}
-                    </Typography>
-                    <Typography variant="body1">
-                      <strong>Tenant Region:</strong>{" "}
-                      {getTenant.data?.OpenIdConfig?.tenant_region_scope}
+                        : "N/A"}
                     </Typography>
                   </Grid>
                 </Grid>
